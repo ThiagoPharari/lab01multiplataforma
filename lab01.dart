@@ -33,9 +33,9 @@ void main() {
     }
     
     if (numero%2 == 0){
-      impar = impar + 1;
-    }else{
       par = par + 1;
+    }else{
+      impar = impar + 1;
     }
     
   }
