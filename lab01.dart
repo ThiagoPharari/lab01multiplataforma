@@ -33,15 +33,15 @@ void main() {
     }
     
     if (numero%2 == 0){
-      par = par + 1;
+      par = par + numero;
     }else{
-      impar = impar + 1;
+      impar = impar + numero;
     }
     
   }
   print ('mayor: $mayor');
   print ('menor: $menor');
   print ('suma : $suma');
-  print ('pares en total : $par');
-  print ('impares en total : $impar');
+  print ('suma de pares: $par');
+  print ('suma de impares: $impar');
 }
